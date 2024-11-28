@@ -1,0 +1,138 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+// @import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+body{
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+}
+.nav-menu{
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #525CEB;
+}
+.navbar-nav a{
+    color: black;
+    position: relative;
+}
+.navbar-nav a:hover{
+    color: #3D3B40;
+}
+.contact-button{
+    text-decoration: none;
+    border: none;
+    background: #525CEB;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.home{
+    background: #BFCFE7;
+    padding: 30px 0px 10px 0px;
+}
+.home h2{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.c-grey{
+    color: #4F709C;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #525CEB;
+    position: relative;
+}
+.link:hover{
+    color: #3f396d !important;
+}
+#foto-cv {
+    border: #fff;
+    border-radius: 20%;
+}
+.heading h3{
+    margin-top: 0.5rem;
+    color: #3f396d;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.expertise h4{
+    color: #3f396d;
+    font-weight: 700;
+}
+.expertise a{
+    text-decoration: none;
+    color: #525CEB;
+}
+.expertise a:hover{
+    color: #6f34fe;
+}
+.expertise .skill-card{
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 0.7rem;
+}
+.blog{
+    background-color: #BFCFE7;
+}
+.blog .blogpost .card{
+    border: none;
+    border-radius: 5%;
+}
+.blog .blogpost h4,.blogpost a{
+    color: #3f396d;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.blogpost a:hover{
+    color: #525CEB;
+}
+.blog .blogpost .read-more-btn{
+    text-decoration: none;
+    color: #525CEB;
+    font-size: 1.1rem;
+}
+.blog .blogpost .read-more-btn:hover{
+    color: #3f396d;
+}
+footer{
+    background-color: #211e39;
+}
+.social-links button{
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 14px 15px 10px 15px;
+}
+.social-links .linkedin{
+    color: #0b67c3;
+}
+.social-links button:hover{
+    color: #fff;
+}
+.social-links .linkedin:hover{
+    background-color: #0b67c3;
+}
+.social-links .whatsapp{
+    color: #25D366;
+}
+.social-links .whatsapp:hover{
+    background-color: #25D366;
+}
+.social-links .instagram{
+    color: #ff0170;
+}
+.social-links .instagram:hover{
+    background-color: #ff0170;
+}
